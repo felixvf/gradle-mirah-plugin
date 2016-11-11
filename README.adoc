@@ -21,7 +21,7 @@ Two tasks (of type `MirahCompile` are automatically added when the plugin is app
 
 == Compatibility
 
-* Gradle 2.0 - 2.12
+* Gradle 2.0 - 3.2
 * JDK 1.7+
 
 == The future
