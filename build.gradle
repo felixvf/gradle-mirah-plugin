@@ -9,7 +9,7 @@ buildscript {
         classpath 'gradle.plugin.nl.javadude.gradle.plugins:license-gradle-plugin:0.12.1'
         classpath "com.netflix.nebula:gradle-extra-configurations-plugin:2.2.2"
         classpath "com.gradle.publish:plugin-publish-plugin:0.9.1"
-        classpath "org.ysb33r.gradle:gradletest:0.5.5"
+        classpath "org.ysb33r.gradle:gradletest:1.0-beta4"
     }
 }
 
@@ -86,10 +86,6 @@ test {
 
 gradleTest {
     versions '2.0' ,'2.2', '2.3', '2.5', '2.8', '2.9', '2.10', '2.12', '2.14.1', '3.0', '3.1', '3.2-rc-3'
-}
-
-check {
-    finalizedBy gradleTest
 }
 
 license {
